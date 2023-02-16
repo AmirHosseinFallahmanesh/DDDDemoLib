@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Lib.Application\Lib.Application.csproj" />
+    <ProjectReference Include="..\Lib.Domain\Lib.Domain.csproj" />
+    <ProjectReference Include="..\Lib.Infra.Data\Lib.Infra.Data.csproj" />
+    <ProjectReference Include="..\Lib.Infra.Messaging\Lib.Infra.Messaging.csproj" />
+    <ProjectReference Include="..\Lib.Infra.Sql\Lib.Infra.Sql.csproj" />
+  </ItemGroup>
+</Project>
