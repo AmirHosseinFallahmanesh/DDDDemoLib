@@ -12,6 +12,7 @@
   
   <ItemGroup>
     <ProjectReference Include="..\Lib.Application\Lib.Application.csproj" />
+    <ProjectReference Include="..\Lib.Core\Lib.Core.csproj" />
     <ProjectReference Include="..\Lib.Domain\Lib.Domain.csproj" />
     <ProjectReference Include="..\Lib.Infra.Data\Lib.Infra.Data.csproj" />
     <ProjectReference Include="..\Lib.Infra.Messaging\Lib.Infra.Messaging.csproj" />

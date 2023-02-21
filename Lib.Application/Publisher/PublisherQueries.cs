@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Lib.Domain.Contracts;
-using Lib.Domain.Entites;
 
 namespace Lib.Application.Publisher
 {

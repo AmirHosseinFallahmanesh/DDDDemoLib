@@ -9,15 +9,16 @@ namespace Lib.Infra.ElasticSearch
 
     public class ElasticConfigurationService : IElasticConfigurationService
     {
-        private readonly IConfiguration configuration;
+        //private readonly IConfiguration configuration;
 
-        public ElasticConfigurationService(IConfiguration configuration)
-        {
-            this.configuration = configuration;
-        }
+        //public ElasticConfigurationService(IConfiguration configuration)
+        //{
+        //    this.configuration = configuration;
+        //}
         public ElasticConfiguration Get()
         {
-            return configuration.GetSection("Elastic").Get<ElasticConfiguration>();
+            throw new System.Exception();
+            //return configuration.GetSection("Elastic").Get<ElasticConfiguration>();
         }
     }
 }
